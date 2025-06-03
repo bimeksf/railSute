@@ -88,7 +88,7 @@ export default function MainHeader() {
           </li>
         </ul>
 
-        <Link href="/rezervace" className="bg-red-500 rounded-2xl p-3 text-white hidden md:block">
+        <Link href="/skoly#kontaktni-formular" className="bg-red-500 rounded-2xl p-3 text-white hidden md:block">
           Rezervace
         </Link>
 
@@ -118,7 +118,7 @@ export default function MainHeader() {
               <Link href="/skoly">Školy a školky</Link>
             </li>
             <li>
-              <Link href="/rezervace">Rezervace</Link>
+              <Link href="/skoly#kontaktni-formular" >Rezervace</Link>
             </li>
           </ul>
         </div>

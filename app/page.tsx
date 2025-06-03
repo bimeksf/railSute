@@ -63,7 +63,7 @@ export default function Home() {
           <motion.div className="flex gap-4" variants={staggerContainer} initial="initial" animate="animate">
             <motion.div variants={fadeInUpDelayed}>
               <Link
-                href="/rezervace"
+                href="/skoly#kontaktni-formular"
                 className="bg-[#E5595B] rounded-3xl sm:px-8 sm:py-5  px-6 py-6 text-white font-bold hover:bg-amber-50 hover:text-[#E5595B] transition"
               >
                 Rezervace
