@@ -1,6 +1,6 @@
 'use client';
 
-import { useActionState } from "react";
+import { useActionState   } from "react";
 import { addPost } from "@/lib/actions";
 
 type FormStateType = {
@@ -15,7 +15,6 @@ export default function Form() {
   };
 
   const [state, formAction] = useActionState(addPost, initialState);
-
   return (
     <div>
       <form 
